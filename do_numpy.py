@@ -6,6 +6,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import numpy as np
 from matplotlib import pyplot as plt
 
+print('version')
+print(tf.__version__)
+
 value = tf.add(1, 2).numpy
 print(value)
 
